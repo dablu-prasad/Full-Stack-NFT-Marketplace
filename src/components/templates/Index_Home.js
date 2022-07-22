@@ -27,8 +27,8 @@ function Index_Home() {
   }, [])
   async function loadNFTs() {
     /* create a generic provider and query for unsold market items */
-    // const provider = new ethers.providers.JsonRpcProvider("https://ropsten.infura.io/v3/04132d4001834221a021b8e2eac7766c")
-    const provider = new ethers.providers.JsonRpcProvider()
+     const provider = new ethers.providers.JsonRpcProvider("https://ropsten.infura.io/v3/04132d4001834221a021b8e2eac7766c")
+   // const provider = new ethers.providers.JsonRpcProvider()
 
     //await window.ethereum.request({ method: 'eth_requestAccounts' })
     //const provider = new ethers.providers.Web3Provider(window.ethereum);
